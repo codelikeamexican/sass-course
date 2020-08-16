@@ -1,8 +1,11 @@
-.div {
-  background-color: blue;
-}
+/*------------------------------------*\
+    $COLORS
+\*-------------------------------------*\
 
+/**
+* Branding Colores
+**/
 table tr:hover {
-  background-color: grey;
+  background-color: #dbd879;
 }
 /*# sourceMappingURL=styles.css.map */
