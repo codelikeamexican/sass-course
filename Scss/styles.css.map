@@ -1,9 +1,11 @@
 {
     "version": 3,
-    "mappings": "ACAA;;;;;;GAMG;ACNH,AAAA,KAAK,CAAC,EAAE,AAAA,MAAM,CAAA;EACV,gBAAgB,EDQF,OAAgB;CCPjC",
+    "mappings": "ACAA;;;;;;GAMG;AGNH,AAAA,KAAK,CAAC,EAAE,AAAA,MAAM,CAAA;EACV,gBAAgB,EHQF,OAAgB;CGPjC",
     "sources": [
         "styles.scss",
         "lib/_variables.scss",
+        "lib/atom/_fonts.scss",
+        "lib/atom/_botones.scss",
         "tablas.scss"
     ],
     "names": [],
