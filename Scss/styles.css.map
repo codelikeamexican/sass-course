@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "ACAA;;;;;;GAMG;ACNH,AAAA,KAAK,CAAC,EAAE,AAAA,MAAM,CAAA;EACV,gBAAgB,EDQF,OAAgB;CCPjC",
+    "mappings": "ACAA;;;;;;GAMG;ACNH,AAAA,IAAI,CAAA;EACA,OAAO,EAAC,YAAY;EACpB,KAAK,EDMK,OAAO;ECLjB,WAAW,EAAE,GAAG;EAChB,aAAa,EDYF,IAAI;ECXf,SAAS,EAAE,IAAiB;CAC/B;;AACG,AAAA,UAAU,CAAA;EACN,gBAAgB,EDGhB,KAAU;ECFV,KAAK,EDML,KAAK;CCLR;;ACVL,AAAA,KAAK,CAAC,EAAE,AAAA,MAAM,CAAA;EACV,gBAAgB,EFQF,OAAgB;CEPjC",
     "sources": [
         "styles.scss",
         "lib/_variables.scss",
+        "lib/_botones.scss",
         "tablas.scss"
     ],
     "names": [],

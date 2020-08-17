@@ -5,6 +5,19 @@
 /**
 * Branding Colores
 **/
+.btn {
+  display: inline-block;
+  color: #ea83ee;
+  line-height: 1.5;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.btn__icon {
+  background-color: black;
+  color: white;
+}
+
 table tr:hover {
   background-color: #dbd879;
 }
