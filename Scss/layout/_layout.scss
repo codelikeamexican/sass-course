@@ -1,0 +1,8 @@
+section{
+    @include max-width;
+    background-color: $lightgrey;
+    padding:$padding;
+}
+body{
+    @include max-width;
+}

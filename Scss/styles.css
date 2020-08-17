@@ -5,6 +5,14 @@
 /**
 * Branding Colores
 **/
+.font__principal {
+  font-family: "Arial", sans-serif;
+}
+
+.font__secondary {
+  font-family: "Verdana", sans-serif;
+}
+
 .btn {
   display: inline-block;
   color: #ea83ee;
@@ -16,6 +24,20 @@
 .btn__icon {
   background-color: black;
   color: white;
+}
+
+section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #bfbfbf;
+  padding: 24px;
+}
+
+body {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table tr:hover {

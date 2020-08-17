@@ -14,5 +14,18 @@ $darkgrey: #4d4d4d;
 $grey: #737373;
 $lightgrey: #bfbfbf;
 $white: white;
+
 $border-radius:10px;
 $basefontsize: 16px;
+
+$fuenteprincipal: 'Arial', sans-serif;
+$fuentesecundaria: 'Verdana', sans-serif;
+
+$padding:24px;
+
+.font__principal{
+    font-family: $fuenteprincipal;
+}
+.font__secondary{
+    font-family: $fuentesecundaria;
+}

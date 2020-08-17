@@ -1,11 +1,12 @@
-.btn{
-    display:inline-block;
+.btn {
+    display: inline-block;
     color: $color-brand;
     line-height: 1.5;
     border-radius: $border-radius;
     font-size: $basefontsize*1.5;
 }
-    .btn__icon{
-        background-color: $black;
-        color: $white;
-    }
+
+.btn__icon {
+    background-color: $black;
+    color: $white;
+}
