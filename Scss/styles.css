@@ -30,8 +30,19 @@ section {
   max-width: 1000pxl;
   margin-left: auto;
   margin-right: auto;
-  background-color: #bfbfbf;
   padding: 24px;
+}
+
+@media only screen and (min-width: 800px) {
+  section {
+    background-color: #bfbfbf;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  section {
+    background-color: pink;
+  }
 }
 
 body {

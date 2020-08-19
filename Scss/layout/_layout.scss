@@ -1,7 +1,13 @@
 section{
     @include max-width;
-    background-color: $lightgrey;
+ 
     padding:$padding;
+    @include respond-to(800px){
+        background-color: $lightgrey;
+    }
+    @include respond-to(1000px){
+        background-color: pink;
+    }
 }
 body{
     @include max-width;

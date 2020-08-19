@@ -4,4 +4,10 @@
     margin-right: auto;
 }
 
+@mixin respond-to($width){
+    @media only screen and (min-width:$width){
+        @content;
+    }
+}
+
 
