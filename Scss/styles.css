@@ -35,6 +35,11 @@
   content: "4";
 }
 
+/*if*/
+p {
+  tex-color: white;
+}
+
 .font__principal {
   font-family: "Arial", sans-serif;
 }
