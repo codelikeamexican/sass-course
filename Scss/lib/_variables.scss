@@ -21,6 +21,13 @@ $font-weights: normal bold italic;
         }
     }
 }
+$background-color:black;
+/*if*/
+@if $background-color == black{
+    p {
+        tex-color: white;
+    }
+}
 
 $zindex :
 (
