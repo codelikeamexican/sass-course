@@ -4,9 +4,11 @@
     line-height: 1.5;
     border-radius: $border-radius;
     font-size: $basefontsize*1.5;
+    position: absolute;
+    z-index: map-get($zindex, base2);
 }
 
 .btn__icon {
-    background-color: $black;
+    background-color: $darkgrey;
     color: $white;
 }
