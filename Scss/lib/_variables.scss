@@ -5,15 +5,24 @@
 /**
 * Branding Colores
 **/
+  $zindex :
+    (
+        base2 : -2,
+        base1 : -1,
+        base : 0,
+        over1 : 1,
+        over2 : 2
+
+    );
 
 $color-brand: #ea83ee;
 $color-secondary: rgb(219,216,121);
 
 $black: rgb(0,0,0);
-$darkgrey: #4d4d4d;
-$grey: #737373;
-$lightgrey: #bfbfbf;
-$white: white;
+$color-grey: #737373;
+$darkgrey: darken($color-grey,25%);
+$lightgrey:lighten($color-grey,25%);
+$white: invert($black);
 
 $border-radius:10px;
 $basefontsize: 16px;
@@ -30,3 +39,4 @@ $page-max-width :1000pxl;
 .font__secondary{
     font-family: $fuentesecundaria;
 }
+
