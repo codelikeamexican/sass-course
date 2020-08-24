@@ -5,6 +5,18 @@
 /**
 * Branding Colores
 **/
+.font__normal {
+  font-weight: normal;
+}
+
+.font__bold {
+  font-weight: bold;
+}
+
+.font__italic {
+  font-weight: italic;
+}
+
 .font__principal {
   font-family: "Arial", sans-serif;
 }

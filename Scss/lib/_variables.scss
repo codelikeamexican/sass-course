@@ -5,15 +5,21 @@
 /**
 * Branding Colores
 **/
-  $zindex :
-    (
-        base2 : -2,
-        base1 : -1,
-        base : 0,
-        over1 : 1,
-        over2 : 2
+$font-weights: normal bold italic;
 
-    );
+@each $font in ($font-weights){
+    .#{'font__'+$font} {font-weight: $font;}
+}
+
+$zindex :
+(
+    base2 : -2,
+    base1 : -1,
+    base : 0,
+    over1 : 1,
+    over2 : 2
+
+);
 
 $color-brand: #ea83ee;
 $color-secondary: rgb(219,216,121);
