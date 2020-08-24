@@ -5,6 +5,7 @@
 /**
 * Branding Colores
 **/
+/*each cycle*/
 .font__normal {
   font-weight: normal;
 }
@@ -15,6 +16,23 @@
 
 .font__italic {
   font-weight: italic;
+}
+
+/*for cycles*/
+.class__1:before {
+  content: "1";
+}
+
+.class__2:before {
+  content: "2";
+}
+
+.class__3:before {
+  content: "3";
+}
+
+.class__4:before {
+  content: "4";
 }
 
 .font__principal {
